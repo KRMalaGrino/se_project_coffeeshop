@@ -26,10 +26,17 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   color: #000000;
-  height: 80px;
-  width: 729px;
   max-width: 729px;
-  margin: 183px 0px 0px 0px;
+  margin: 183px 0px 0px;
+}
+
+.header__span-accent {
+  font-family: Noto Serif, Times New Roman, serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #3f96f3;
+  letter-spacing: normal;
+  display: block;
 }
 
 .header__description {
