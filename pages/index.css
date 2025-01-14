@@ -167,7 +167,7 @@
   flex-direction: column;
 }
 
-.recipes__videos__iframe {
+.recipes__iframe {
   height: 273px;
   max-height: 273px;
   width: 480px;
