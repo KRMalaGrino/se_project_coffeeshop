@@ -175,7 +175,7 @@
   gap: 40px;
 }
 
-.recipes__videos__video-caption {
+.recipes__video-caption {
   margin: 24px 0 0 0;
   font-weight: 500;
   font-size: 20px;
@@ -183,7 +183,7 @@
   color: #ffffff;
 }
 
-.recipes__videos__video-caption_wrapper {
+.recipes__video-caption-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
