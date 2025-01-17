@@ -1,2 +1,73 @@
-/* .menu {
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__text-wrapper {
+  margin: 0 auto;
+}
+
+.menu__title {
+  margin: 100px 0 24px 0;
+  max-width: 780px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  margin: 0 0 100px;
+  max-width: 780px;
+  text-align: center;
+  font-family: Noto Serif Times New Roman, serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 0 100px;
+  gap: 100px;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__text-wrapper {
+  padding: 0 0;
+}
+
+.card__list-item {
+  list-style-type: none;
+  padding: 0 0 16px;
+  font-family: Noto Serif Times New Roman, serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item:last-child {
+  padding: 0;
+}
+
+.card__list-divider {
 }
