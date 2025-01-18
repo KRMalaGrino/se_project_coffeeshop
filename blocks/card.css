@@ -1,0 +1,38 @@
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__text-wrapper {
+  padding: 0 0;
+}
+
+.card__list-item {
+  display: flex;
+  list-style-type: none;
+  padding: 0 0 16px;
+  font-family: Noto Serif, Times New Roman, serif;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: baseline;
+}
+
+.card__list-item:last-child {
+  padding: 0;
+}
+
+.card__list-divider {
+  display: block;
+  min-width: 50px;
+  height: 1px;
+  background-color: #000;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+}
