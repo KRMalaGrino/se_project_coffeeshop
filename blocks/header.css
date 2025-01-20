@@ -9,6 +9,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 1;
+  position: relative;
 }
 
 .header__title {
@@ -33,17 +35,14 @@
 .header__description {
   width: 683px;
   max-width: 683px;
-  height: 80px;
-  max-height: 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
+  font-size: 20px;
+  line-height: 30px;
   margin: 28px 0px 0px 0px;
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
   width: 550px;
   position: absolute;
   top: 124px;

@@ -8,7 +8,8 @@
   }
 
   100% {
-    opacity: 1;
+    transform: scale(1.3)
+    opacity: 0;
   }
 }
 
@@ -45,6 +46,10 @@
   margin: 0 auto;
 }
 
+.about__paragraph:last-child{
+  padding: 0 0;
+}
+
 .about__circle {
   display: flex;
   height: 426px;
@@ -58,5 +63,4 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  transform: scale(1.15);
 }

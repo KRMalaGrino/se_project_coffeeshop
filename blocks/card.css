@@ -11,6 +11,7 @@
 
 .card__text-wrapper {
   padding: 0 0;
+  margin: 0 auto;
 }
 
 .card__list-item {
@@ -25,6 +26,7 @@
 
 .card__list-item:last-child {
   padding: 0;
+  margin: 0 auto;
 }
 
 .card__list-divider {

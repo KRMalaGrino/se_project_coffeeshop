@@ -46,10 +46,8 @@
 
 .recipes__iframe {
   height: 273px;
-  max-height: 273px;
   width: 480px;
-  max-width: 480px;
-  gap: 40px;
+  border: none;
 }
 
 .recipes__video-caption {

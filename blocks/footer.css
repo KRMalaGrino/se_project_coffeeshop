@@ -38,6 +38,10 @@
   line-height: 20px;
 }
 
+.footer__list-item:last-child {
+  margin: 0 auto;
+}
+
 .footer__social-icon {
   padding: 0 10px 0 0;
 }
@@ -57,4 +61,5 @@
   padding: 0 0 60px 80px;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 auto;
 }
