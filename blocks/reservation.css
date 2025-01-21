@@ -22,3 +22,7 @@
   line-height: 52px;
   color: #000;
 }
+
+.reservation__form {
+  max-width: 385px;
+}

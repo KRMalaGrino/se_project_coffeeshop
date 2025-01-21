@@ -54,24 +54,27 @@
 }
 
 .header__paragraph {
+  margin: 0;
+}
+
+.header__footer {
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   box-sizing: border-box;
   font-weight: 500;
   color: #6f6f6f;
 }
 
-.header__hours {
+/* .header__hours {
   line-height: 21px;
   margin: 0 0 0 0;
-}
+} */
 
-.header__address {
+/* .header__address {
   margin: 0;
   color: #838383;
   display: flex;
   align-self: flex-end;
-}
+} */
