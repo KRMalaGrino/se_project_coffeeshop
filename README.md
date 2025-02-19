@@ -27,4 +27,4 @@ We created this website using a reference from TripleTen's website to replicate 
 
 This webpage is deployed to GitHub Pages in the following link
 
---------------------
+https://KRMalaGrino.github.io/se_project_coffeeshop/
